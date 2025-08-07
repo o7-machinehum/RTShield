@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "L_Abracon")(type "KiCad")(uri "${KIPRJMOD}/L_Abracon.pretty")(options "")(descr ""))
+)
