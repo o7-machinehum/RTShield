@@ -1,4 +1,4 @@
-26432925234329105
+26434680308130386
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105608,3 +105608,10 @@ Varistor VF
 0
 2
 2
+X_Abracon
+Crystal_SMD_Abracon_ABM8-272-T3-4Pin_3.2x2.5mm
+
+SMD SMT crystal
+0
+4
+4

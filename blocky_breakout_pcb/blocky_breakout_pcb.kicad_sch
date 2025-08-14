@@ -262,7 +262,7 @@
 	(bus_alias "I2C1"
 		(members "I2C1.SCL" "I2C1.SDA")
 	)
-	(text "Ryan TODO list.\n1) Go over all pins numbers/names, make sure they're correct.\n2) Audit all fooprints.\n3) Assign remaining footprints.\n4) Double check 3.3V supply component values\n5) Double check DAC pins, wire up remaining IO\n6) Decide how to wire out remaining \n	- 4x DAC pins\n	- 2x ADC\n	- Remaining RP2350 pins\n7) Calculate Y1 load caps\n8) Test SWD programming from RPI. Decide if this is how we want to proceed.\n9) Maybe add grove connector\n10) Set all IOs on schematic to proper I or O\n11) Check crystal pinout"
+	(text "Ryan TODO list.\n- Go over all pins numbers/names, make sure they're correct.\n- Double check 3.3V supply component values\n- Check all decoupling caps on the RP2350"
 		(exclude_from_sim no)
 		(at 16.256 15.748 0)
 		(effects
@@ -321,16 +321,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 102.87) (xy 125.73 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48a08a0d-6949-4c0a-9b31-0df05670db2f")
-	)
-	(wire
-		(pts
 			(xy 96.52 76.2) (xy 125.73 76.2)
 		)
 		(stroke
@@ -361,6 +351,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 102.87) (xy 125.73 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d5786a-322d-42c5-b0c7-cf0e38d9d6b5")
+	)
+	(wire
+		(pts
 			(xy 106.68 85.09) (xy 125.73 85.09)
 		)
 		(stroke
@@ -368,6 +368,26 @@
 			(type default)
 		)
 		(uuid "a04bedc8-8c2a-4413-b72a-b7e81dabae52")
+	)
+	(wire
+		(pts
+			(xy 96.52 105.41) (xy 125.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a169af4b-f9f8-443b-9c69-83eb346f6d5d")
+	)
+	(wire
+		(pts
+			(xy 187.96 88.9) (xy 203.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f96281-9ada-43e3-acc6-6a60919c46c1")
 	)
 	(wire
 		(pts
@@ -391,13 +411,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 105.41) (xy 125.73 105.41)
+			(xy 187.96 83.82) (xy 203.2 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3246ef7-b8e2-40cc-b285-0c3d2fe73505")
+		(uuid "c3c188c6-1f70-4431-a7d3-32ea81864e01")
+	)
+	(wire
+		(pts
+			(xy 187.96 86.36) (xy 203.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5c782f-f630-442e-bd1a-538f41b95832")
 	)
 	(wire
 		(pts
@@ -418,6 +448,16 @@
 			(type default)
 		)
 		(uuid "ce257e3c-4c67-48c4-b453-5dcb69d97e59")
+	)
+	(wire
+		(pts
+			(xy 187.96 91.44) (xy 203.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce52387e-5580-4327-b046-fc1ebbda6f0c")
 	)
 	(bus
 		(pts
@@ -5082,9 +5122,49 @@
 				(justify left top)
 			)
 		)
-		(pin "{I2C1}" output
+		(pin "{I2C0}" output
 			(at 203.2 78.74 180)
 			(uuid "cfdc102c-82a5-4580-927d-01ceb2d94ab5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC0" output
+			(at 203.2 83.82 180)
+			(uuid "cab4d29c-1b5e-48ec-ae16-1e94e2639987")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC1" output
+			(at 203.2 86.36 180)
+			(uuid "9701e969-be93-4d73-9119-2bad4dc27089")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC2" output
+			(at 203.2 88.9 180)
+			(uuid "8fe99939-a447-4816-8bb4-f50098e5342a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC3" output
+			(at 203.2 91.44 180)
+			(uuid "e06b10a1-acf4-4af2-ab55-9c218c70b276")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5273,7 @@
 				(justify left)
 			)
 		)
-		(pin "{I2C0}" input
+		(pin "{I2C1}" input
 			(at 125.73 132.08 180)
 			(uuid "9945ce0e-0e5f-4c7f-91c6-6d863f39ae72")
 			(effects
@@ -5213,7 +5293,7 @@
 				(justify left)
 			)
 		)
-		(pin "{I2C1}" input
+		(pin "{I2C0}" input
 			(at 187.96 78.74 0)
 			(uuid "5a47d9d7-acd2-4364-8856-246b63efa2cb")
 			(effects
@@ -5263,7 +5343,7 @@
 				(justify left)
 			)
 		)
-		(pin "RELAY1_EN" output
+		(pin "RELAY2_EN" output
 			(at 187.96 109.22 0)
 			(uuid "c1980bcb-d63b-4513-b486-959351903003")
 			(effects
@@ -5273,9 +5353,49 @@
 				(justify right)
 			)
 		)
-		(pin "RELAY2_EN" output
+		(pin "RELAY1_EN" output
 			(at 187.96 140.97 0)
 			(uuid "11e5f2d5-77f0-43c5-a3c0-82d0ae35ccbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC3" input
+			(at 187.96 91.44 0)
+			(uuid "18f8e883-7f5d-49fc-b731-4fc5dcc7b7e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC0" input
+			(at 187.96 83.82 0)
+			(uuid "87a29b2e-a22a-4ff5-a1f1-7e237c5fc61d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC1" input
+			(at 187.96 86.36 0)
+			(uuid "f2c08f24-981a-4060-8c16-692ca73b68d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC2" input
+			(at 187.96 88.9 0)
+			(uuid "9a454752-ee1a-4cbd-8f51-98ece93f5ab9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5387,8 +5507,8 @@
 				(justify right)
 			)
 		)
-		(pin "D0{slash}RX" input
-			(at 96.52 102.87 0)
+		(pin "D0{slash}RX" output
+			(at 96.52 105.41 0)
 			(uuid "4becc79f-d7af-4315-a7b0-b952f7531e98")
 			(effects
 				(font
@@ -5397,8 +5517,8 @@
 				(justify right)
 			)
 		)
-		(pin "D1{slash}TX" output
-			(at 96.52 105.41 0)
+		(pin "D1{slash}TX" input
+			(at 96.52 102.87 0)
 			(uuid "bcc806e0-a9df-4ea4-9c03-282dc72caaad")
 			(effects
 				(font
@@ -5417,7 +5537,7 @@
 				(justify right)
 			)
 		)
-		(pin "{I2C0}" output
+		(pin "{I2C1}" output
 			(at 96.52 132.08 0)
 			(uuid "896cd69f-ee0f-4e67-9cec-93c68ddffcfc")
 			(effects
@@ -5551,26 +5671,6 @@
 				(justify left top)
 			)
 		)
-		(pin "GPIO16" output
-			(at 96.52 80.01 0)
-			(uuid "b417e47e-cfa2-4db7-be66-551e871c1cc7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO17" bidirectional
-			(at 96.52 82.55 0)
-			(uuid "f5c24211-e3c9-4f95-bf87-b0c9e0018306")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "UART_RX0" input
 			(at 96.52 73.66 0)
 			(uuid "60235935-6ec2-4f76-955e-68740d1fefa3")
@@ -5593,7 +5693,27 @@
 		)
 		(pin "GPIO18" output
 			(at 96.52 85.09 0)
-			(uuid "27ddf48f-8ecd-43ee-b240-71e2a17980ba")
+			(uuid "80c30988-6b32-4155-8629-342809780819")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO24" bidirectional
+			(at 96.52 82.55 0)
+			(uuid "29e1f691-a1d6-4c2d-bccc-7cb5cbab1436")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO25" output
+			(at 96.52 80.01 0)
+			(uuid "c4a7193b-9a84-41e7-8ace-7468e05ea428")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1107,10 +1107,6 @@
 		(uuid "3075de19-eccb-4de8-a058-7cff1d390ec1")
 	)
 	(no_connect
-		(at 118.11 113.03)
-		(uuid "3749c035-2f4e-4c81-8d0b-108bfc674c1a")
-	)
-	(no_connect
 		(at 118.11 97.79)
 		(uuid "6f74760e-18cb-45eb-9cb5-89b8e46404a1")
 	)
@@ -1131,12 +1127,12 @@
 		(uuid "825ad5bc-93cf-499e-8e73-96e867ce51ab")
 	)
 	(no_connect
-		(at 118.11 110.49)
-		(uuid "829ac485-b5a5-4702-9905-735ec978a04e")
-	)
-	(no_connect
 		(at 118.11 100.33)
 		(uuid "8c26bf24-a74d-4b43-9342-be6b02518ba7")
+	)
+	(no_connect
+		(at 118.11 87.63)
+		(uuid "9369fc5a-ebf8-4316-b0a6-51748e2e646b")
 	)
 	(no_connect
 		(at 184.15 80.01)
@@ -1161,6 +1157,10 @@
 	(no_connect
 		(at 184.15 105.41)
 		(uuid "d34f2035-896d-4606-a95d-047c15201aa7")
+	)
+	(no_connect
+		(at 118.11 90.17)
+		(uuid "d99c1844-0047-4acd-986b-846c24ae9a20")
 	)
 	(no_connect
 		(at 184.15 100.33)
@@ -1218,7 +1218,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 87.63) (xy 118.11 87.63)
+			(xy 113.03 113.03) (xy 118.11 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1238,7 +1238,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 90.17) (xy 118.11 90.17)
+			(xy 113.03 110.49) (xy 118.11 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1268,9 +1268,9 @@
 		)
 		(uuid "82fabd37-7767-446e-af2b-b92f926f7962")
 	)
-	(hierarchical_label "GPIO16"
+	(hierarchical_label "GPIO25"
 		(shape output)
-		(at 113.03 87.63 180)
+		(at 113.03 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1290,9 +1290,9 @@
 		)
 		(uuid "9db12fa1-7882-42c9-a81e-f36902371f9a")
 	)
-	(hierarchical_label "GPIO17"
+	(hierarchical_label "GPIO24"
 		(shape bidirectional)
-		(at 113.03 90.17 180)
+		(at 113.03 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)

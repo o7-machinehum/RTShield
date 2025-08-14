@@ -1675,6 +1675,16 @@
 		)
 		(uuid "7f686615-c928-479d-a0c6-d530defad9b0")
 	)
+	(text "Only pop as replacement \nfor RP2350 internal Vreg"
+		(exclude_from_sim no)
+		(at 84.328 176.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a34c616b-54b7-45cd-b302-cd53134a0c42")
+	)
 	(text "3.3V @ 1.2A"
 		(exclude_from_sim no)
 		(at 218.44 122.428 0)
@@ -2668,7 +2678,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R7BB104"
+		(property "MPN" "CL05B104KP5NNNC"
 			(at 96.52 40.64 0)
 			(effects
 				(font
@@ -2991,7 +3001,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R7BB104"
+		(property "MPN" "JMK105BJ105KV-F"
 			(at 102.87 149.86 0)
 			(effects
 				(font
@@ -3314,7 +3324,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R7BB104"
+		(property "MPN" "CL05B104KP5NNNC"
 			(at 96.52 67.31 0)
 			(effects
 				(font
@@ -3557,7 +3567,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KA8NNNC"
+		(property "MPN" "JMK105BJ105KV-F"
 			(at 233.045 92.075 0)
 			(effects
 				(font
@@ -3712,7 +3722,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R7BB104"
+		(property "MPN" "CL05B104KP5NNNC"
 			(at 64.77 39.37 0)
 			(effects
 				(font
@@ -3809,7 +3819,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R7BB104"
+		(property "MPN" "JMK105BJ105KV-F"
 			(at 66.04 149.86 0)
 			(effects
 				(font
@@ -4589,7 +4599,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-079K53L"
+		(property "MPN" "RC0402FR-1315K8L"
 			(at 247.015 104.775 0)
 			(effects
 				(font
@@ -4828,7 +4838,7 @@
 				)
 			)
 		)
-		(property "MPN" "RT0603BRD07100KL"
+		(property "MPN" "RC0402FR-13100KL"
 			(at 204.47 97.155 0)
 			(effects
 				(font
@@ -4980,7 +4990,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-0749K9L"
+		(property "MPN" "RC0402FR-1349K9L"
 			(at 247.015 97.79 0)
 			(effects
 				(font
@@ -5200,7 +5210,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R7BB104"
+		(property "MPN" "CL05B104KP5NNNC"
 			(at 69.85 55.88 0)
 			(effects
 				(font

@@ -981,6 +981,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 97.79) (xy 180.34 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a476808d-fa6a-4520-b725-a0f3f99d680b")
+	)
+	(wire
+		(pts
 			(xy 158.75 85.09) (xy 158.75 83.82)
 		)
 		(stroke
@@ -1011,6 +1021,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 100.33) (xy 180.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cefc9e44-0d41-46c4-85b4-ae955adf1e3c")
+	)
+	(wire
+		(pts
 			(xy 127 92.71) (xy 127 97.79)
 		)
 		(stroke
@@ -1018,6 +1038,16 @@
 			(type default)
 		)
 		(uuid "ea8d3540-a621-45de-af2f-a74eaca7ab03")
+	)
+	(wire
+		(pts
+			(xy 170.18 102.87) (xy 180.34 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2782308-1420-4b79-b457-926616dae23e")
 	)
 	(bus
 		(pts
@@ -1031,6 +1061,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 95.25) (xy 180.34 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd1c8503-c1be-4171-be92-b4a1cfd7c429")
+	)
+	(wire
+		(pts
 			(xy 154.94 113.03) (xy 154.94 107.95)
 		)
 		(stroke
@@ -1039,7 +1079,7 @@
 		)
 		(uuid "fe51d42b-2938-46d7-9bce-27bab2ff7948")
 	)
-	(label "I2C1.SDA"
+	(label "I2C0.SDA"
 		(at 138.43 97.79 180)
 		(effects
 			(font
@@ -1049,7 +1089,7 @@
 		)
 		(uuid "1120ee52-cfb7-4ac0-b421-48a5b4e0eff6")
 	)
-	(label "I2C1.SCL"
+	(label "I2C0.SCL"
 		(at 138.43 95.25 180)
 		(effects
 			(font
@@ -1059,7 +1099,7 @@
 		)
 		(uuid "cdf2245f-0735-4564-a20b-6a5525a647e9")
 	)
-	(hierarchical_label "{I2C1}"
+	(hierarchical_label "{I2C0}"
 		(shape output)
 		(at 110.49 88.9 180)
 		(effects
@@ -1069,6 +1109,50 @@
 			(justify right)
 		)
 		(uuid "56fc41de-afc4-4145-b002-3d4e6695358b")
+	)
+	(hierarchical_label "DAC3"
+		(shape output)
+		(at 180.34 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73710edd-1576-4bdc-a044-0a91896aa81d")
+	)
+	(hierarchical_label "DAC2"
+		(shape output)
+		(at 180.34 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "971e785c-9788-4420-b7ca-8e42553a7f0a")
+	)
+	(hierarchical_label "DAC1"
+		(shape output)
+		(at 180.34 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a093292-c489-41d3-9be1-3f66324c6492")
+	)
+	(hierarchical_label "DAC0"
+		(shape output)
+		(at 180.34 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c96bbeab-101a-48d9-a7a5-1a6b58f322d6")
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -1123,6 +1207,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 127 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-131KL"
 			(at 127 90.17 0)
 			(effects
 				(font
@@ -1344,6 +1437,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL05B104KP5NNNC"
+			(at 151.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4662135-e418-41a7-b48f-1aacdf0921f3")
 		)
@@ -1387,7 +1489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 158.75 81.28 0)
 			(effects
 				(font
@@ -1415,6 +1517,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 158.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "JMK105BBJ475MV-F"
 			(at 158.75 81.28 0)
 			(effects
 				(font
@@ -1491,6 +1602,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 120.65 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-131KL"
 			(at 120.65 90.17 0)
 			(effects
 				(font
@@ -1766,6 +1886,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCP4728T-E/UN"
 			(at 154.94 97.79 0)
 			(effects
 				(font

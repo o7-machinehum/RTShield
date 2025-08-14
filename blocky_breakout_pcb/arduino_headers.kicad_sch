@@ -2301,7 +2301,7 @@
 		)
 		(uuid "01b6e902-4f1c-4832-882a-1c79af38f973")
 	)
-	(label "I2C0.SDA"
+	(label "I2C1.SDA"
 		(at 182.88 74.93 0)
 		(effects
 			(font
@@ -2401,7 +2401,7 @@
 		)
 		(uuid "7389531d-cda0-4142-83bb-74af0aa45c60")
 	)
-	(label "I2C0.SCL"
+	(label "I2C1.SCL"
 		(at 182.88 72.39 0)
 		(effects
 			(font
@@ -2557,7 +2557,7 @@
 		)
 		(uuid "7bafee3f-f79d-4135-96a0-56451c36f68c")
 	)
-	(hierarchical_label "{I2C0}"
+	(hierarchical_label "{I2C1}"
 		(shape output)
 		(at 199.39 66.04 0)
 		(effects
