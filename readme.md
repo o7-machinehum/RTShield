@@ -60,6 +60,6 @@ blink.uf2   # drag & drop via USB boot
 ## License
 The project is licensed under the Creative Commons (4.0 International License) Attribution—Noncommercial—Share Alike license. This allows sharing and adapting material for non-commercial purposes, provided credit is given to the creator and adaptations are shared under the same terms. The material can be used in any format with necessary technical modifications, but no warranties are provided. The license prohibits imposing additional restrictions and ensures the rights are irrevocable as long as the terms are followed.
 
-Basically... If you make boards for yourself: great, make boards for your friends: great, but **please do not sell hundreds on them on Aliexpress**. I'm selling boards [here](https://shop.rootkitlabs.com/products/flipper-blackhat); the money made here goes back into this project and other similar open-source projects!
+Basically... If you make boards for yourself: great, make boards for your friends: great, but **please do not sell hundreds on them on Aliexpress**.
 
-Files in `docs/` 3rd party reference material and not covered by this licence.
+Files in `docs/` 3rd party reference material are not covered by this licence.
