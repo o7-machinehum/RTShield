@@ -10,6 +10,7 @@ The Mycrobez sheild is a Raspberry PI hat containing an MCU to serve as a "realt
 - LEDs
 
 ## Flashing RP2350 from RPI
+```
 sudo apt-get update
 sudo apt-get install -y build-essential git autoconf automake libtool pkg-config \
     libusb-1.0-0-dev libhidapi-dev libjim-dev
@@ -55,7 +56,7 @@ make -j8
 
 blink.elf   # load with OpenOCD
 blink.uf2   # drag & drop via USB boot
-
+```
 ## License
 The project is licensed under the Creative Commons (4.0 International License) Attribution—Noncommercial—Share Alike license. This allows sharing and adapting material for non-commercial purposes, provided credit is given to the creator and adaptations are shared under the same terms. The material can be used in any format with necessary technical modifications, but no warranties are provided. The license prohibits imposing additional restrictions and ensures the rights are irrevocable as long as the terms are followed.
 
