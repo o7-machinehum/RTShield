@@ -1048,16 +1048,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Used for SWD programming.\n(Test this)"
-		(exclude_from_sim no)
-		(at 89.916 90.678 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cbf65194-96e3-4934-b9dd-c22c2ef299c5")
-	)
 	(text "Raspberry PI\nPin Header"
 		(exclude_from_sim no)
 		(at 151.384 56.896 0)

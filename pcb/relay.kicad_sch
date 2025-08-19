@@ -1820,6 +1820,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "1N4148WT"
+			(at 138.43 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6f696ae0-8f56-489a-873f-f39803cd0605")
 		)
@@ -2162,6 +2171,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "S2B-XH-A"
 			(at 195.58 77.47 0)
 			(effects
 				(font

@@ -469,6 +469,16 @@
 		)
 		(uuid "d62f1935-3b91-4dce-96fd-d0b6604125c2")
 	)
+	(bus
+		(pts
+			(xy 96.52 127) (xy 125.73 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6eee3aa-4b2e-4c89-9b0a-cb4fdf630af7")
+	)
 	(wire
 		(pts
 			(xy 96.52 85.09) (xy 106.68 85.09)
@@ -4927,6 +4937,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "S2B-XH-A"
+			(at 231.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1ec88901-b97e-4e51-a0e1-bcb1b4019be2")
 		)
@@ -5403,6 +5422,16 @@
 				(justify right)
 			)
 		)
+		(pin "{SPI1}" bidirectional
+			(at 125.73 127 180)
+			(uuid "447713bd-02e3-4db4-880a-05a2791bdd3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f"
@@ -5570,6 +5599,16 @@
 		(pin "AREF" output
 			(at 96.52 110.49 0)
 			(uuid "40b666b9-40b3-4142-b09d-48547661df4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SPI1}" bidirectional
+			(at 96.52 127 0)
+			(uuid "18c1ea12-2661-4db6-9865-edfc455a90e4")
 			(effects
 				(font
 					(size 1.27 1.27)

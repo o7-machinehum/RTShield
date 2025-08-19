@@ -1595,10 +1595,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "out/R0.1/fab/gerb/",
+      "pos_files": "out/R0.1/fab/",
       "specctra_dsn": "",
-      "step": "out/R0.1/fab/blocky_breakout_pcb.step",
+      "step": "out/R0.1/blocky_breakout_pcb.step",
       "svg": "",
       "vrml": ""
     },
@@ -1714,7 +1714,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Value"
