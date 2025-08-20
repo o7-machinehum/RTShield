@@ -13920,7 +13920,7 @@
 			)
 		)
 		(property "Value" "+1V1"
-			(at 124.46 96.774 0)
+			(at 121.92 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14628,6 +14628,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "W25Q32JVSSIQ"
 			(at 31.75 43.18 0)
 			(effects
 				(font
@@ -15686,7 +15695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e2dc6dc-ae93-4f89-9f1b-0e5cf6731b06")
-		(property "Reference" "C6"
+		(property "Reference" "C16"
 			(at 163.83 35.5662 0)
 			(effects
 				(font
@@ -15758,7 +15767,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "C6")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -17909,9 +17918,9 @@
 		(at 69.85 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ac571dbb-4e88-4987-9f0e-af23682bd4d8")
 		(property "Reference" "J9"
 			(at 70.612 168.91 0)
@@ -18301,7 +18310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc388769-df33-4070-a0a8-f232ab1c1be2")
-		(property "Reference" "C16"
+		(property "Reference" "C6"
 			(at 124.46 106.6862 0)
 			(effects
 				(font
@@ -18373,7 +18382,7 @@
 		(instances
 			(project ""
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "C16")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -19757,7 +19766,7 @@
 			)
 		)
 		(property "Value" "V_USB"
-			(at 247.269 21.0058 0)
+			(at 247.65 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19810,7 +19819,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f8dc3260-3c98-476f-8a84-91c9c0f6d1d7")
 		(property "Reference" "J3"
 			(at 146.558 69.596 0)
@@ -19848,6 +19857,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x14, script generated"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "77311-101-14LF"
 			(at 143.51 88.9 0)
 			(effects
 				(font

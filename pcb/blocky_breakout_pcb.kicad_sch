@@ -262,17 +262,6 @@
 	(bus_alias "I2C1"
 		(members "I2C1.SCL" "I2C1.SDA")
 	)
-	(text "Ryan TODO list.\n- Go over all pins numbers/names, make sure they're correct.\n- Double check 3.3V supply component values\n- Check all decoupling caps on the RP2350"
-		(exclude_from_sim no)
-		(at 16.256 15.748 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left top)
-		)
-		(uuid "a9ca04e0-799a-4935-808f-228f151e8ac5")
-	)
 	(junction
 		(at 106.68 85.09)
 		(diameter 0)

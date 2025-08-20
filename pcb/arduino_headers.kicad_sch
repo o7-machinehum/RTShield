@@ -3197,6 +3197,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "NPTC101KFXC-RC"
+			(at 177.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "b64ddd40-569e-416c-9349-51c96937b697")
 		)
@@ -3433,6 +3442,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "NPTC081KFXC-RC"
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e0e7397a-4b84-40f9-8b10-b766aa2c4799")
 		)
@@ -3596,6 +3614,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "NPTC061KFXC-RC"
+			(at 134.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "4a7ba91f-f34a-49ac-ae9e-65ab2246230a")
 		)
@@ -3649,7 +3676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 137.16 135.89 0)
 			(effects
 				(font
@@ -3668,6 +3695,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 137.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "67997-206HLF"
 			(at 137.16 135.89 0)
 			(effects
 				(font
@@ -3757,6 +3793,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 177.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NPTC081KFXC-RC"
 			(at 177.8 107.95 0)
 			(effects
 				(font

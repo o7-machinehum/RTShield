@@ -1423,6 +1423,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "NPTC202KFMS-RC"
+			(at 151.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "29"
 			(uuid "c6b49b2f-baca-4391-8b31-499f921987ca")
 		)
