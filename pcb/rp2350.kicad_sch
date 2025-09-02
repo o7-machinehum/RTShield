@@ -13130,7 +13130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03e25eec-f71c-43aa-9412-f41b2b1bdf47")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 31.75 21.59 0)
 			(effects
 				(font
@@ -13180,7 +13180,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -13369,7 +13369,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d00cabe-9e3f-4df0-adce-f30c69d82454")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 59.69 148.336 90)
 			(effects
 				(font
@@ -13439,7 +13439,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -13454,7 +13454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0de7a21d-0a8d-4a67-ac1d-2c9fdc0e3ac8")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 143.51 34.29 0)
 			(effects
 				(font
@@ -13504,7 +13504,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -13519,7 +13519,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "10798f7c-80f3-4f7c-aeef-5d42d7dbf9ca")
-		(property "Reference" "R21"
+		(property "Reference" "R1"
 			(at 54.229 27.94 0)
 			(effects
 				(font
@@ -13589,7 +13589,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "R21")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -13693,7 +13693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10c39128-4072-4204-9ce6-1ff132227d73")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 265.43 22.606 0)
 			(effects
 				(font
@@ -13808,7 +13808,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -13910,7 +13910,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14aa47ef-4abe-442a-b174-a79ee15934aa")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 121.92 104.14 0)
 			(effects
 				(font
@@ -13960,7 +13960,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -13976,7 +13976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15016977-9d99-4c41-a80a-14fecb51db80")
-		(property "Reference" "SW2"
+		(property "Reference" "SW3"
 			(at 127 176.5299 90)
 			(effects
 				(font
@@ -14066,7 +14066,7 @@
 		(instances
 			(project ""
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "SW2")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -14082,7 +14082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16e038a5-ad7b-4ff0-b0fa-48bd14d22f3b")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 265.43 76.2 0)
 			(effects
 				(font
@@ -14133,7 +14133,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -14235,7 +14235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dd487e3-3061-4920-8982-3efe1c7faf3c")
-		(property "Reference" "R18"
+		(property "Reference" "R13"
 			(at 143.129 171.45 0)
 			(effects
 				(font
@@ -14305,7 +14305,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "R18")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14687,7 +14687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e52e3fe-61c3-4311-a074-9e01c79632be")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 35.814 88.9 90)
 			(effects
 				(font
@@ -14757,7 +14757,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14849,7 +14849,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35f3084f-b249-4eb0-854c-4356d231c874")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 143.51 54.61 0)
 			(effects
 				(font
@@ -14899,7 +14899,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -14915,7 +14915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "454db5f1-928a-462a-a434-47ea4404dbf0")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 113.03 102.87 0)
 			(effects
 				(font
@@ -14966,7 +14966,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -15065,7 +15065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ad95783-773b-4564-a5e6-ce8caba28421")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 62.23 86.36 0)
 			(effects
 				(font
@@ -15115,7 +15115,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -15214,7 +15214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "518f3fe9-d1ea-42fd-8a97-3076ba8e2a83")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 107.95 121.92 0)
 			(effects
 				(font
@@ -15264,7 +15264,7 @@
 		(instances
 			(project ""
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -15522,7 +15522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58500caf-6429-4c1f-860e-036b6d5e9f17")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 61.468 135.636 90)
 			(effects
 				(font
@@ -15592,7 +15592,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -15695,7 +15695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e2dc6dc-ae93-4f89-9f1b-0e5cf6731b06")
-		(property "Reference" "C16"
+		(property "Reference" "C6"
 			(at 163.83 35.5662 0)
 			(effects
 				(font
@@ -15767,7 +15767,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "C16")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -15874,7 +15874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dc306c6-6faa-4050-9ce4-c89d8911d029")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 132.08 152.4 0)
 			(effects
 				(font
@@ -15925,7 +15925,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -15941,7 +15941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "706b70f4-b878-4472-8051-43d402615147")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 66.04 55.88 0)
 			(effects
 				(font
@@ -15992,7 +15992,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -16007,7 +16007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70d7012c-54c3-47af-bee8-bfab85f6d1a2")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 129.159 128.27 0)
 			(effects
 				(font
@@ -16077,7 +16077,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -16181,7 +16181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77c4671a-5ce0-438f-af1b-b40167d0dfa6")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 242.57 30.48 90)
 			(effects
 				(font
@@ -16251,7 +16251,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -16267,7 +16267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77cd0213-055a-4e48-9ba8-55be17c0ea20")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR020"
 			(at 152.4 115.57 0)
 			(effects
 				(font
@@ -16318,7 +16318,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR064")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -16421,7 +16421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81925bba-58bb-4dc7-8764-22efec924483")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 107.95 168.91 0)
 			(effects
 				(font
@@ -16472,7 +16472,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -16488,7 +16488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83007b8c-bb04-4e76-a0bf-ebc4e4ef7efb")
-		(property "Reference" "D6"
+		(property "Reference" "D3"
 			(at 170.18 180.6574 90)
 			(effects
 				(font
@@ -16569,7 +16569,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "D6")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -16585,7 +16585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "858b7726-0055-4bf2-9b26-0be46134365e")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 26.67 162.56 0)
 			(effects
 				(font
@@ -16636,7 +16636,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -16652,7 +16652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ad7cf9e-41c0-47da-98a5-19c05c34c929")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 49.53 154.94 0)
 			(effects
 				(font
@@ -16703,7 +16703,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -16891,7 +16891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91a7e9a8-8be5-4386-a539-993a01aad723")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 61.214 31.75 90)
 			(effects
 				(font
@@ -16961,7 +16961,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -16977,7 +16977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9587503b-4797-4c1c-bd0a-d5fa3b244b9b")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR033"
 			(at 156.21 194.31 0)
 			(effects
 				(font
@@ -17028,7 +17028,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR060")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -17043,7 +17043,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "9aa05f0b-9c47-4cca-8d97-3e1bed043da0")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 59.309 86.36 0)
 			(effects
 				(font
@@ -17113,7 +17113,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -17129,7 +17129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9beb0cfa-e2bc-463a-977a-7bdc3a9d3545")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 143.51 69.85 0)
 			(effects
 				(font
@@ -17180,7 +17180,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -17293,7 +17293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1635259-9662-42e5-92d4-ac3499591277")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 64.77 130.81 0)
 			(effects
 				(font
@@ -17343,7 +17343,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -17358,7 +17358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2303f0f-cc17-4a75-8ccf-9875f3c77859")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 40.386 100.33 90)
 			(effects
 				(font
@@ -17431,7 +17431,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -17769,7 +17769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abd938f8-c705-402f-9286-be2a311c5473")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR034"
 			(at 119.38 196.85 0)
 			(effects
 				(font
@@ -17820,7 +17820,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR059")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -17922,7 +17922,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "ac571dbb-4e88-4987-9f0e-af23682bd4d8")
-		(property "Reference" "J9"
+		(property "Reference" "J3"
 			(at 70.612 168.91 0)
 			(effects
 				(font
@@ -17989,7 +17989,7 @@
 		(instances
 			(project ""
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "J9")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -18005,7 +18005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b00de981-ed0b-424b-b375-6d1db90a4167")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 31.75 63.5 0)
 			(effects
 				(font
@@ -18056,7 +18056,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -18071,7 +18071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b244293e-a14b-469a-86d1-52170ed43e6f")
-		(property "Reference" "R20"
+		(property "Reference" "R15"
 			(at 163.449 171.45 0)
 			(effects
 				(font
@@ -18141,7 +18141,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "R20")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -18157,7 +18157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b66458be-fb82-436c-8536-5e1802237b7a")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 113.538 84.074 0)
 			(effects
 				(font
@@ -18227,7 +18227,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -18243,7 +18243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8368f8b-167d-4274-a31e-319b5b51b5e2")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 39.37 35.56 0)
 			(effects
 				(font
@@ -18294,7 +18294,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -18310,7 +18310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc388769-df33-4070-a0a8-f232ab1c1be2")
-		(property "Reference" "C6"
+		(property "Reference" "C16"
 			(at 124.46 106.6862 0)
 			(effects
 				(font
@@ -18382,7 +18382,7 @@
 		(instances
 			(project ""
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "C6")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -18397,7 +18397,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bda4dc1f-dbab-46ad-9d39-8c2983cdc6c5")
-		(property "Reference" "R22"
+		(property "Reference" "R8"
 			(at 41.529 109.22 0)
 			(effects
 				(font
@@ -18467,7 +18467,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "R22")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -18483,7 +18483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf03530a-c7fd-4c7c-901b-2346b175f654")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR032"
 			(at 63.5 179.07 0)
 			(effects
 				(font
@@ -18534,7 +18534,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR058")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -18550,7 +18550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf8cf079-7fcb-4092-94b6-ca8b7d439ab7")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR022"
 			(at 44.45 121.92 0)
 			(effects
 				(font
@@ -18601,7 +18601,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR066")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -18617,7 +18617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5a8f6b5-ac3c-485c-b10c-f06328ee399c")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 160.02 180.6574 90)
 			(effects
 				(font
@@ -18698,7 +18698,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -18714,7 +18714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cabe3bbf-04fd-4e4a-b9ad-a8ca148b858f")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 219.71 43.18 0)
 			(effects
 				(font
@@ -18764,7 +18764,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -18779,7 +18779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb338959-4328-4417-9382-5111dd341422")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR02"
 			(at 57.15 25.4 0)
 			(effects
 				(font
@@ -18829,7 +18829,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR065")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -18845,7 +18845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1907f51-d8cd-45f6-9631-60df64b2051f")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 219.71 58.42 0)
 			(effects
 				(font
@@ -18897,7 +18897,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -18913,7 +18913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7af292c-7aec-4d7d-ad4c-dbb84ec1cd32")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 143.51 49.53 0)
 			(effects
 				(font
@@ -18964,7 +18964,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -18980,7 +18980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7cf8188-fe0f-46bd-ba1b-9c18e79617ea")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 34.29 154.94 0)
 			(effects
 				(font
@@ -19031,7 +19031,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -19047,7 +19047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbf78235-632d-41b8-8b60-92ffe332c0ab")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 149.86 180.6574 90)
 			(effects
 				(font
@@ -19128,7 +19128,7 @@
 		(instances
 			(project ""
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -19143,7 +19143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1efd040-4624-4f25-a9ce-7a2c1cbeb8ca")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 107.95 82.55 0)
 			(effects
 				(font
@@ -19193,7 +19193,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -19208,7 +19208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e36ae8a6-22f2-44e8-bc6c-425f124dd15c")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 61.214 127 90)
 			(effects
 				(font
@@ -19278,7 +19278,7 @@
 		(instances
 			(project ""
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -19294,7 +19294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea2936e4-1b7f-438f-bc07-ead134057e40")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 242.57 39.116 90)
 			(effects
 				(font
@@ -19364,7 +19364,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -19380,7 +19380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea9acd3a-883b-4712-a409-1d54779aa5f9")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 236.22 45.72 0)
 			(effects
 				(font
@@ -19431,7 +19431,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -19447,7 +19447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed4d8959-7375-4dfa-81a4-39133f09e6bb")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 62.23 102.87 0)
 			(effects
 				(font
@@ -19497,7 +19497,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -19605,7 +19605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f107a8dc-f0b6-43af-95ad-b57a35bb6049")
-		(property "Reference" "R19"
+		(property "Reference" "R14"
 			(at 153.289 171.45 0)
 			(effects
 				(font
@@ -19675,7 +19675,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "R19")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -19690,7 +19690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f69e3b12-e33c-46b1-a759-951d3fa5f5c1")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 107.95 134.62 0)
 			(effects
 				(font
@@ -19740,7 +19740,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -19756,7 +19756,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f778673d-6c59-4c93-93fe-73464f99fb3e")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 247.65 29.21 0)
 			(effects
 				(font
@@ -19806,7 +19806,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -19821,7 +19821,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "f8dc3260-3c98-476f-8a84-91c9c0f6d1d7")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 146.558 69.596 0)
 			(effects
 				(font
@@ -19919,7 +19919,7 @@
 		(instances
 			(project ""
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -20021,7 +20021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc74701d-e954-4409-8e40-99cdde74283a")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 132.08 128.27 0)
 			(effects
 				(font
@@ -20071,7 +20071,7 @@
 		(instances
 			(project "blocky_breakout_pcb"
 				(path "/deaf739e-0e27-4f2f-890a-6dd284a38e9f/070b8cc2-3998-46de-84e2-c30831f55ad5"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)

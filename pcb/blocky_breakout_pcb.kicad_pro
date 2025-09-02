@@ -58,28 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|179045000|107750000|20dd76ac-a739-41df-a171-d3f5d524dc1e|5ab26e86-9711-4906-9939-3c18e29ffb97",
-          ""
-        ],
-        [
-          "hole_clearance|179045000|107750000|20dd76ac-a739-41df-a171-d3f5d524dc1e|d0c5615d-8a1b-4e6a-80a7-6c4448576ffd",
-          ""
-        ],
-        [
-          "hole_clearance|179045000|113850000|6a7bf907-78b7-4a6c-9d1e-511d5acc44f4|a19641af-74f2-4618-926e-4ee14b4de9e3",
-          ""
-        ],
-        [
-          "hole_clearance|179045000|113850000|6a7bf907-78b7-4a6c-9d1e-511d5acc44f4|b9baf48d-0f7e-40fc-8a4f-b360a1266a64",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|182010000|110800000|a588c2a5-e9d3-4275-adb0-d11243dca98f|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -490,6 +469,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
