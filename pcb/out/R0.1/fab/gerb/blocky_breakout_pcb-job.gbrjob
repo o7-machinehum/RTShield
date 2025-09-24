@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.4"
     },
-    "CreationDate": "2025-09-01T14:16:21+02:00"
+    "CreationDate": "2025-09-24T11:56:24+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -95,6 +95,16 @@
     {
       "Path": "blocky_breakout_pcb-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "blocky_breakout_pcb-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "blocky_breakout_pcb-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
   ],
