@@ -1,1 +1,50 @@
 https://datasheets.raspberrypi.com/rp2350/hardware-design-with-rp2350.pdf
+
+## Flashing RP2350 from RPI
+```
+sudo apt-get update
+sudo apt-get install -y build-essential git autoconf automake libtool pkg-config \
+    libusb-1.0-0-dev libhidapi-dev libjim-dev
+
+git clone --depth=1 https://github.com/raspberrypi/openocd.git
+cd openocd
+./bootstrap
+./configure --enable-bcm2835gpio --enable-sysfsgpio
+make -j$(nproc)
+sudo make install
+
+### Wiring
+GPIO25 (pin 22) → SWCLK
+GPIO24 (pin 18) → SWDIO
+GPIO18 (pin 12) → nRESET (optional)
+
+### Connect
+sudo openocd -f interface/raspberrypi-swd.cfg -f target/rp2350.cfg \
+  -c "adapter speed 400; init; reset init"
+
+### Or pogram
+sudo openocd -f interface/raspberrypi-swd.cfg -f target/rp2350.cfg \
+  -c "adapter speed 1000; init; program build/your_app.elf verify reset exit"
+
+### Install pico sdk
+sudo apt install cmake gcc-arm-none-eabi
+mkdir -p ~/pico
+cd ~/pico
+git clone -b master https://github.com/raspberrypi/pico-sdk.git
+cd pico-sdk
+git submodule update --init
+cd ..
+
+git clone -b master https://github.com/raspberrypi/pico-examples.git
+
+### Build blinky
+export PICO_SDK_PATH=$HOME/pico/pico-sdk
+cd ~/pico/pico-examples
+mkdir build && cd build
+cmake -DPICO_PLATFORM=rp2350 ..
+cd blink
+make -j8
+
+blink.elf   # load with OpenOCD
+blink.uf2   # drag & drop via USB boot
+```
