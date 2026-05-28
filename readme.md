@@ -20,15 +20,17 @@ sudo apt update
 sudo apt install -y build-essential cmake ninja-build gcc-arm-none-eabi \
     libnewlib-arm-none-eabi python3-dev python3-pybind11 openocd
 
+sudo raspi-config nonint do_serial_cons 1
+sudo raspi-config nonint do_serial_hw 0
+sudo usermod -aG dialout "$USER"
+
 make
 make flash # This flashes the RP2350
 
-sudo systemctl disable --now serial-getty@ttyS0.service
-sudo usermod -aG dialout "$USER"
-sudo chgrp dialout /dev/ttyS0
-sudo chmod 660 /dev/ttyS0
-
 make install
+
+# Reboot once so the serial-console setting and dialout group membership apply.
+sudo reboot
 ```
 
 ## Running

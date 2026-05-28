@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.20)
 
 set(PICO_PLATFORM rp2350 CACHE STRING "Pico platform")
+set(PICO_BOARD rtshield_rp2350b CACHE STRING "Pico board")
+set(PICO_BOARD_HEADER_DIRS ${CMAKE_CURRENT_LIST_DIR}/boards CACHE STRING "Local Pico board headers")
 set(PICO_SDK_PATH ${CMAKE_CURRENT_LIST_DIR}/../third_party/pico-sdk CACHE PATH "Path to the Pico SDK")
 
 get_filename_component(PICO_SDK_PATH "${PICO_SDK_PATH}" ABSOLUTE)
