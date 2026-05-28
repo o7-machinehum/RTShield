@@ -1,2 +1,6 @@
 pcb/blocky_breakout_pcb-backups/
 *.lck
+firmware/build/
+cpp/build/
+python/build/
+build

@@ -10,6 +10,36 @@ The RTSheild is a Raspberry PI hat containing an MCU to serve as a "realtime" co
 - Switches, for config
 - LEDs
 
+## Getting Started
+``` bash
+git clone https://github.com/o7-machinehum/RTShield
+cd RTShield
+git submodule update --init --recursive
+
+sudo apt install -y build-essential cmake ninja-build gcc-arm-none-eabi \
+    libnewlib-arm-none-eabi python3-dev python3-pybind11 openocd
+
+make
+make install
+```
+
+The Python API talks to the shield over `/dev/serial0`:
+
+``` python
+import rtshield
+
+s = rtshield.Shield("/dev/serial0")
+print(s.read_analog_raw(0))
+s.write_analog_voltage(0, 1.25)
+s.write_digital(2, True)
+s.set_led(0, True)
+s.set_relay(0, True)
+print(s.read_switch(0))
+```
+
+## MCU <-> RPI Coms
+It's worth mentioning the UART between the MCU and the RPI isn't done very nicely right now. This is to keep things simple. I will eventually do a proper cobs encoding scheme and make things nicer.
+
 ## License
 The project is licensed under the Creative Commons (4.0 International License) Attribution—Noncommercial—Share Alike license. This allows sharing and adapting material for non-commercial purposes, provided credit is given to the creator and adaptations are shared under the same terms. The material can be used in any format with necessary technical modifications, but no warranties are provided. The license prohibits imposing additional restrictions and ensures the rights are irrevocable as long as the terms are followed.
 
