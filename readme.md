@@ -10,19 +10,28 @@ The RTSheild is a Raspberry PI hat containing an MCU to serve as a "realtime" co
 - Switches, for config
 - LEDs
 
-## Getting Started
+## Installing
 ``` bash
 git clone https://github.com/o7-machinehum/RTShield
 cd RTShield
 git submodule update --init --recursive
 
+sudo apt update
 sudo apt install -y build-essential cmake ninja-build gcc-arm-none-eabi \
     libnewlib-arm-none-eabi python3-dev python3-pybind11 openocd
 
 make
+make flash # This flashes the RP2350
+
+sudo systemctl disable --now serial-getty@ttyS0.service
+sudo usermod -aG dialout "$USER"
+sudo chgrp dialout /dev/ttyS0
+sudo chmod 660 /dev/ttyS0
+
 make install
 ```
 
+## Running
 The Python API talks to the shield over `/dev/serial0`:
 
 ``` python
